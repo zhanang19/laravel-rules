@@ -1,0 +1,58 @@
+{
+    "name": "zhanang19/laravel-rules",
+    "description": "laravel-rules",
+    "keywords": [
+        "zhanang19",
+        "laravel-rules"
+    ],
+    "homepage": "https://github.com/zhanang19/laravel-rules",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zainal Hasan",
+            "email": "mail@zhanang.id",
+            "homepage": "https://zhanang.id",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3",
+        "psalm/plugin-laravel": "^1.4",
+        "vimeo/psalm": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhanang19\\LaravelRules\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhanang19\\LaravelRules\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/zhanang19"
+        },
+        {
+            "type": "other",
+            "url": "https://buymeacoff.ee/zhanang19"
+        }
+    ]
+}
